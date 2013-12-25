@@ -1,12 +1,75 @@
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Enable-RemoteDesktop
 
-cinst fiddler4
+
+cinst GoogleChrome
+cinst adblockpluschrome
+cinst adblockplusie
+cinst tor-browser
+cinst skype
+
+cinst uTorrent
+cinst vlc
+cinst spotify
+cinst winamp
+cinst iTunes
+
+cinst PDFCreator
+cinst adobereader
+cinst flashplayeractivex
+
+cinst ChocolateyGUI
+cinst curl
+cinst Wget
+cinst KatMouse
+cinst rdcman
+cinst putty
+cinst TotalCommander
+cinst notepadplusplus
+cinst SublimeText3
+cinst TeraCopy
+cinst Gow
+cinst f.lux
+cinst autohotkey_l
+cinst paint.net
+cinst 7zip
+cinst dropbox
+cinst virtualbox
+
+cinst winmerge
+cinst P4Merge
+cinst grepwin
+cinst expresso
+
+cinst git
 cinst git-credential-winstore
-cinst console-devel
-cinst sublimetext2
-cinst poshgit
-cinst dotpeek
+cinst GitHub
+cinst hg
+
+cinst VisualStudio2013Ultimate
+cinst NugetPackageExplorer
+cinst powertab
+cinst pscx
+cinst PowerGUI
+cinst PowerGUIVSX
+cinst javaruntime
+cinst python
+cinst easy.install
+cinst AzureStorageExplorer
+
+cinst dotPeek
+cinst linqpad4
+cinst queryexplus
+cinst markdownpad2
+
+cinst sysinternals
+cinst windirstat
+
+cinst webpi
+cinst fiddler4
 
 cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst IIS-WebServerRole -source windowsfeatures
+
+cinst Office365HomePremium
+Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots -criteria "IsAssigned=1 and IsHidden=0 and IsInstalled=0" <CommonParameters>
